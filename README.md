@@ -1,7 +1,7 @@
 # 🇮🇳 HIND SURFER
 
 > **An India-themed endless runner game made for fun, practice, and entertainment.**
-
+LIVE ON PAGES 
 ---
 
 ## 🎮 About HIND SURFER
