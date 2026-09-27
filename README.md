@@ -78,10 +78,12 @@ All scores, coins, rewards, and game progress are **virtual and for gameplay pur
 
 ## 🛠️ Technologies Used
 
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **HTML Canvas API**
+React 19 - Modern component-based UI and reactive state
+TypeScript - Type-safe game logic and state management
+Vite 6 - Fast next-generation frontend build tool
+Tailwind CSS 4 - Modern utility-first responsive styling
+HTML5 Canvas API - High-performance 60 FPS 3D perspective track rendering & animation
+Web Audio API - Custom synthesized desi dholak beats, train horns, and sound effects
 
 No backend or database is required.
 
@@ -90,12 +92,26 @@ No backend or database is required.
 ## 📁 Project Structure
 
 ```text
-HIND-SURFER/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+hind-surfers/
+├── .github/
+│   └── workflows/
+│       └── main.yml        # Automatic GitHub Actions CI/CD to GitHub Pages
+├── public/                 # Static assets and .nojekyll
+├── src/
+│   ├── game/
+│   │   ├── audio.ts        # Web Audio API sound synthesizer & desi dholak beats
+│   │   ├── constants.ts    # Game physics, track dimensions, and colors
+│   │   ├── engine.ts       # Core game loop, obstacle spawning, and collisions
+│   │   ├── particles.ts    # Particle effects (dust, spark, coins, speed lines)
+│   │   ├── renderer.ts     # 3D perspective canvas rendering engine
+│   │   └── types.ts        # TypeScript interfaces for player, trains & items
+│   ├── App.tsx             # Main game container, UI overlays, HUD & shop
+│   ├── index.css           # Global Tailwind CSS styles and custom animations
+│   └── main.tsx            # React application entry point
+├── index.html              # HTML5 template
+├── package.json            # Project dependencies and build scripts
+├── tsconfig.json           # TypeScript configuration
+└── vite.config.ts          # Vite build configuration
 ```
 
 ---
@@ -106,6 +122,7 @@ HIND-SURFER/
 2. Keep all files in the same folder.
 3. Open `index.html` in a web browser.
 4. Start playing.
+5. BY DIRECT LINK GIVEN ON TOP OF README
 
 ---
 
