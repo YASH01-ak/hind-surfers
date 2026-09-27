@@ -116,13 +116,8 @@ hind-surfers/
 
 ---
 
-## 🚀 Run Locally
-
-1. Download or clone this repository.
-2. Keep all files in the same folder.
-3. Open `index.html` in a web browser.
-4. Start playing.
-5. BY DIRECT LINK GIVEN ON TOP OF README
+## 🚀 Run 
+BY DIRECT LINK GIVEN ON TOP OF README
 
 ---
 
