@@ -1,0 +1,6 @@
+{
+  "name": "Hind Surfer",
+  "description": "An endless 3D perspective runner on Indian railway tracks featuring Vande Bharat express trains, desi characters, upgradeable power-ups, and desi dholak sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

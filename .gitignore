@@ -1,0 +1,29 @@
+node_modules/
+build/
+dist/
+.cache/
+.vite/
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+
+# Sensitive Environment variables & API keys
+.env
+.env.*
+!.env.example
+*.local
+
+# Security & Private Credentials
+*.pem
+*.key
+*.cert
+*.p12
+credentials.json
+secrets.json
+
+# Editor directories
+.vscode/
+.idea/
+
