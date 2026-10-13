@@ -79,11 +79,17 @@ All scores, coins, rewards, and game progress are **virtual and for gameplay pur
 ## 🛠️ Technologies Used
 
 React 19 - Modern component-based UI and reactive state
+
 TypeScript - Type-safe game logic and state management
+
 Vite 6 - Fast next-generation frontend build tool
+
 Tailwind CSS 4 - Modern utility-first responsive styling
+
 HTML5 Canvas API - High-performance 60 FPS 3D perspective track rendering & animation
+
 Web Audio API - Custom synthesized desi dholak beats, train horns, and sound effects
+
 
 No backend or database is required.
 
@@ -139,8 +145,6 @@ This project is created to:
 HIND SURFER is an independent fan-made educational/entertainment project.
 
 It is not affiliated with or sponsored by any existing commercial endless-runner game or game company.
-
-All game mechanics, artwork, code, and assets used in this project should be original or appropriately licensed.
 
 ---
 
